@@ -1,0 +1,28 @@
+{
+  "name": "lecture-frontend-dev-env",
+  "version": "1.0.0",
+  "description": "\"프론트엔드 개발 환경의 이해\" 강의 자료입니다.",
+  "main": ".eslintrc.js",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeonghwan-kim/lecture-frontend-dev-env.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env/issues"
+  },
+  "homepage": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env#readme",
+  "dependencies": {
+    "css-loader": "^6.7.2",
+    "style-loader": "^3.3.1"
+  }
+}
